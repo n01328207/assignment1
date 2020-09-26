@@ -3,9 +3,9 @@ package assignment1.example.assignment1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.widget.RelativeLayout;
+import android.widget.RelativeLayout;ax
 import android.widget.TextView;
-import android.widget.Toast;da
+import android.widget.Toast;
 
 public class AiActivity extends AppCompatActivity {
 
