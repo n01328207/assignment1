@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-438015599/DucNguyen_CENG319Lab1_Ex1.iml" filepath="$PROJECT_DIR$/.idea/modules/-438015599/DucNguyen_CENG319Lab1_Ex1.iml" group="assignment1/DucNguyen_CENG319Lab1_Ex1" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="assignment1/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2049194148/assignment1.iml" filepath="$PROJECT_DIR$/.idea/modules/2049194148/assignment1.iml" group="assignment1" />
+    </modules>
+  </component>
+</project>

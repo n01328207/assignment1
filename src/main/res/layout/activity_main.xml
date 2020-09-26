@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <fragment
+        android:id="@+id/activityfragment"
+        android:name="assignment1.example.assignment1.topfragment"
+        android:layout_width="360dp"
+        android:layout_height="195dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <fragment
+        android:id="@+id/displayfragment"
+        android:name="assignment1.example.assignment1.bottomfragment"
+        android:layout_width="326dp"
+        android:layout_height="234dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/activityfragment"
+        app:layout_constraintVertical_bias="0.745" />
+</androidx.constraintlayout.widget.ConstraintLayout>
